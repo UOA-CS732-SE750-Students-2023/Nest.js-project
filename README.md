@@ -76,24 +76,25 @@ If you see something like this in your terminal, that means the app is running s
 #### 2. Test the app
 a) To test the application, please open Postman and click "Collection" -> "Create a new collection". Then you can give the collection a name, for example: "Task Management". For example: 
 
-![](./assets/截屏2023-04-08 下午1.39.18.png)
+![](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yil909/blob/main/assets/%E6%88%AA%E5%B1%8F2023-04-08%20%E4%B8%8B%E5%8D%881.39.18.png?raw=true)
 
 b) To make a new request on Postman
 
-![](./assets/截屏2023-04-08 下午1.46.17.png)
+![](https://raw.githubusercontent.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yil909/main/assets/%E6%88%AA%E5%B1%8F2023-04-08%20%E4%B8%8B%E5%8D%881.46.17.png)
 
 c) The first functionality is to sign up and create a user. You can follow the steps to create a user:
-![](./assets/截屏2023-04-08 下午1.53.59.png)
+
+![](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yil909/blob/main/assets/%E6%88%AA%E5%B1%8F2023-04-08%20%E4%B8%8B%E5%8D%881.53.59.png?raw=true)
 
 **The username should be at least 4 characters long and a maximum 20 characters, and the password should be at least 8 characters long and a maximum 20 characters. In addition, the password need to contain at least one uppercase letter, one lowercase letter, and one digit or special character, and is at least 8 characters long.**
 If the requirements are not met, it will return the error message "password too weak".
 
 d) The second functionality is to sign in and get the token. You can follow the steps to get the token (Please save the token for the next steps):
-![](./assets/截屏2023-04-08 下午2.21.06.png)
+![](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yil909/blob/main/assets/%E6%88%AA%E5%B1%8F2023-04-08%20%E4%B8%8B%E5%8D%882.21.06.png?raw=true)
 
 e) The third functionality is to create a task. You can follow the steps to create a task (You will need the token from the previous step):
-![](./assets/截屏2023-04-08 下午2.47.32.png)
-![](./assets/截屏2023-04-08 下午3.32.59.png)
+![](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yil909/blob/main/assets/%E6%88%AA%E5%B1%8F2023-04-08%20%E4%B8%8B%E5%8D%882.47.32.png?raw=true)
+![](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yil909/blob/main/assets/%E6%88%AA%E5%B1%8F2023-04-08%20%E4%B8%8B%E5%8D%883.32.59.png?raw=true)
 As you can see an ID is generated for the task, you will need to use this for the next test. 
 
 f) The fourth functionality is to get task by ID.
@@ -101,12 +102,12 @@ f) The fourth functionality is to get task by ID.
 
 g) The fifth functionality is to get all tasks.
 Similar step f, you will need to use the token to get all tasks. The result will be like this:
-![](./assets/截屏2023-04-08 下午4.00.39.png)
+![](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yil909/blob/main/assets/%E6%88%AA%E5%B1%8F2023-04-08%20%E4%B8%8B%E5%8D%883.46.58.png?raw=true)
 
 h) The sixth functionality is to delete a task by id.
-![](./assets/截屏2023-04-08 下午4.03.38.png)
+![](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yil909/blob/main/assets/%E6%88%AA%E5%B1%8F2023-04-08%20%E4%B8%8B%E5%8D%884.03.38.png?raw=true)
 
 i) The seventh functionality is to update a task by id. 
-![](./assets/截屏2023-04-08 下午4.17.32.png)
+![](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yil909/blob/main/assets/%E6%88%AA%E5%B1%8F2023-04-08%20%E4%B8%8B%E5%8D%884.17.32.png?raw=true)
 **There are three legal task statuses, which are OPEN, IN_PROGRESS, and DONE**
 
