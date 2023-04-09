@@ -1,8 +1,7 @@
-import {IS_NOT_EMPTY_OBJECT, IsNotEmpty} from "class-validator";
-
+import {IsNotEmpty} from "class-validator";
 
 export class CreateTaskDto {
-    @IsNotEmpty()
+    @IsNotEmpty() //this decorator will make sure that the title is not empty
     title: string;
 
     @IsNotEmpty()
