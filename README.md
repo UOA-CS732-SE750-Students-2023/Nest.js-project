@@ -45,15 +45,17 @@ In the command above, "run" means I want to run a container, "postgres-nest" is 
 #### 2. pgAdmin
 a) Open your pdAdmin, when you firstly open it, you might need to set a password. Then you will see a "Severs" tag on your left hand menu, it is empty for now. Right click "Servers" and select "Register" -> "Server".
 
-![](assets/截屏2023-04-08 上午11.47.51.png)
+![](./assets/截屏2023-04-08 上午11.47.51.png)
+
+
 
 b) Then you can give the server a name. For example: 
 
-![](assets/截屏2023-04-08 上午11.54.40.png)
+![](./assets/截屏2023-04-08 上午11.54.40.png)
 
 c) After that, you can click the "Connection" button and do the following settings (The Password is the same as the one you set in the Docker command above, which should be "postgres"):
 
-![](assets/截屏2023-04-08 下午12.30.12.png)
+![](./assets/截屏2023-04-08 下午12.30.12.png)
 
 d) After that, you can click the "Save" button and you will see the server you just created in the "Servers" tag on your left hand menu.
 
@@ -67,42 +69,42 @@ yarn start:dev
 
 If you see something like this in your terminal, that means the app is running successfully
 
-![](assets/截屏2023-04-08 下午1.16.39.png)
+![](./assets/截屏2023-04-08 下午1.16.39.png)
 
 #### 2. Test the app
 a) To test the application, please open Postman and click "Collection" -> "Create a new collection". Then you can give the collection a name, for example: "Task Management". For example: 
 
-![](assets/截屏2023-04-08 下午1.39.18.png)
+![](./assets/截屏2023-04-08 下午1.39.18.png)
 
 b) To make a new request on Postman
 
-![](assets/截屏2023-04-08 下午1.46.17.png)
+![](./assets/截屏2023-04-08 下午1.46.17.png)
 
 c) The first functionality is to sign up and create a user. You can follow the steps to create a user:
-![](assets/截屏2023-04-08 下午1.53.59.png)
+![](./assets/截屏2023-04-08 下午1.53.59.png)
 
 **The username should be at least 4 characters long and a maximum 20 characters, and the password should be at least 8 characters long and a maximum 20 characters. In addition, the password need to contain at least one uppercase letter, one lowercase letter, and one digit or special character, and is at least 8 characters long.**
 If the requirements are not met, it will return the error message "password too weak".
 
 d) The second functionality is to sign in and get the token. You can follow the steps to get the token (Please save the token for the next steps):
-![](assets/截屏2023-04-08 下午2.21.06.png)
+![](./assets/截屏2023-04-08 下午2.21.06.png)
 
 e) The third functionality is to create a task. You can follow the steps to create a task (You will need the token from the previous step):
-![](assets/截屏2023-04-08 下午2.47.32.png)
-![](assets/截屏2023-04-08 下午3.32.59.png)
+![](./assets/截屏2023-04-08 下午2.47.32.png)
+![](./assets/截屏2023-04-08 下午3.32.59.png)
 As you can see an ID is generated for the task, you will need to use this for the next test. 
 
 f) The fourth functionality is to get task by ID.
-![](assets/截屏2023-04-08 下午3.46.58.png)
+![](./assets/截屏2023-04-08 下午3.46.58.png)
 
 g) The fifth functionality is to get all tasks.
 Similar step f, you will need to use the token to get all tasks. The result will be like this:
-![](assets/截屏2023-04-08 下午4.00.39.png)
+![](./assets/截屏2023-04-08 下午4.00.39.png)
 
 h) The sixth functionality is to delete a task by id.
-![](assets/截屏2023-04-08 下午4.03.38.png)
+![](./assets/截屏2023-04-08 下午4.03.38.png)
 
 i) The seventh functionality is to update a task by id. 
-![](assets/截屏2023-04-08 下午4.17.32.png)
+![](./assets/截屏2023-04-08 下午4.17.32.png)
 **There are three legal task statuses, which are OPEN, IN_PROGRESS, and DONE**
 
