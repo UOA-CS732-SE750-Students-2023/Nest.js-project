@@ -45,17 +45,19 @@ In the command above, "run" means I want to run a container, "postgres-nest" is 
 #### 2. pgAdmin
 a) Open your pdAdmin, when you firstly open it, you might need to set a password. Then you will see a "Severs" tag on your left hand menu, it is empty for now. Right click "Servers" and select "Register" -> "Server".
 
-![](./assets/截屏2023-04-08 上午11.47.51.png)
+
+![](https://raw.githubusercontent.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yil909/main/assets/%E6%88%AA%E5%B1%8F2023-04-08%20%E4%B8%8A%E5%8D%8811.47.51.png)
 
 
 
 b) Then you can give the server a name. For example: 
 
-![](./assets/截屏2023-04-08 上午11.54.40.png)
+![](https://raw.githubusercontent.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yil909/main/assets/%E6%88%AA%E5%B1%8F2023-04-08%20%E4%B8%8A%E5%8D%8811.54.40.png)
 
 c) After that, you can click the "Connection" button and do the following settings (The Password is the same as the one you set in the Docker command above, which should be "postgres"):
 
-![](./assets/截屏2023-04-08 下午12.30.12.png)
+
+![Example image](https://raw.githubusercontent.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yil909/main/assets/%E6%88%AA%E5%B1%8F2023-04-08%20%E4%B8%8B%E5%8D%8812.30.12.png)
 
 d) After that, you can click the "Save" button and you will see the server you just created in the "Servers" tag on your left hand menu.
 
@@ -69,7 +71,7 @@ yarn start:dev
 
 If you see something like this in your terminal, that means the app is running successfully
 
-![](./assets/截屏2023-04-08 下午1.16.39.png)
+![](https://raw.githubusercontent.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yil909/main/assets/%E6%88%AA%E5%B1%8F2023-04-08%20%E4%B8%8B%E5%8D%881.16.39.png)
 
 #### 2. Test the app
 a) To test the application, please open Postman and click "Collection" -> "Create a new collection". Then you can give the collection a name, for example: "Task Management". For example: 
