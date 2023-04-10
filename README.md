@@ -20,7 +20,7 @@ yarn --version
 #### 3. Install Docker
 We are going to use Docker to run Postgres. It is easy, straight-forward and it works cross-platform. You will need to install Docker on your machine.
 
-You can find detailed instructions on how to install Docker for your operating system in the official Docker download page [here]([https://classic.yarnpkg.com/en/docs/install/#mac-stable](https://www.docker.com/products/docker-desktop/)). 
+You can find detailed instructions on how to install Docker for your operating system in the official Docker download page [here](https://www.docker.com/products/docker-desktop/).
 
 To check that Docker is installed, you can run:
 ```bash
